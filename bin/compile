@@ -122,7 +122,7 @@ set-default-env LIBRARY_PATH "$APP_VENDOR/lib"
 set-default-env LD_LIBRARY_PATH "$APP_VENDOR/lib"
 set-default-env CPATH "$APP_VENDOR/include"
 
-echo $PATH
-ls .heroku/vendor/lib
+echo $GEOS_LIBRARY_PATH
+ls /app/vendor
 
 echo "-----> Vendoring geo libraries done"
